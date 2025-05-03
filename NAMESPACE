@@ -3,6 +3,8 @@
 export(DendroPlot)
 export(LongDataCluster)
 export(MeanPlot)
+export(plot_multivariate_trajectories)
+export(simLongData)
 import(dplyr)
 import(foreach)
 import(ggplot2)
