@@ -23,6 +23,13 @@
 #'   \item{\code{cluster}}{Integer. True cluster assignment for the subject.}
 #' }
 #'
+#' @details
+#' For each subject, a smooth subject-specific random curve is generated based on a second-order
+#' random effects model using \code{\link{generate_random_curve}}. This curve introduces structured
+#' within-subject variation by modeling deviations from the cluster mean as:
+#' \eqn{r_i(t) = b_{i0} + b_{i1} t + b_{i2} t^2}, where the random coefficients follow a multivariate
+#' normal distribution with user-specified variance and correlation matrices.
+
 #' @examples
 #' sim_data <- simLongData()
 #' head(sim_data)

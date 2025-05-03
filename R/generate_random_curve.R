@@ -20,7 +20,8 @@
 #' rho_b <- diag(3) # identity correlation matrix for simplicity
 #' curve <- generate_random_curve(times, rho_b = rho_b)
 #'
-#' @keywords internal
+#' @export
+
 
 
 generate_random_curve <- function(times, # time to evaluate at
