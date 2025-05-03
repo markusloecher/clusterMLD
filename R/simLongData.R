@@ -2,6 +2,7 @@
 #'
 #' Generates multivariate longitudinal data with a specified number of clusters,
 #' noise level, and time structure. Can simulate either fixed or random observation times.
+#' A default run will create sth. VERY close to \code{\link{LongDat}}
 #'
 #' @param n_total Integer. Total number of subjects to simulate. Default is 200.
 #' @param K Integer. Number of underlying clusters to simulate. Default is 4.

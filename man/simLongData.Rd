@@ -44,6 +44,7 @@ A data frame with the following columns:
 \description{
 Generates multivariate longitudinal data with a specified number of clusters,
 noise level, and time structure. Can simulate either fixed or random observation times.
+A default run will create sth. VERY close to \code{\link{LongDat}}
 }
 \examples{
 sim_data <- simLongData()
