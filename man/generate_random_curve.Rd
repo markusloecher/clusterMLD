@@ -33,4 +33,3 @@ curve <- generate_random_curve(times, rho_b = rho_b)
 \references{
 Zhou, J., Zhang, Y., & Tu, W. (2022). clusterMLD: An Efficient Hierarchical Clustering Method for Multivariate Longitudinal Data. *Journal of Computational and Graphical Statistics*, DOI: \doi{10.1080/10618600.2022.2149540}
 }
-\keyword{internal}
