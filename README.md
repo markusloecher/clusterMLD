@@ -12,11 +12,9 @@ The original use -as described below- is untouched.
 
 > In sum, the package is capable of clustering **sparse, irregular, unbalanced, and multivariate continuous** longitudinal data
 
-Our main contribution is the function **simLongData()** which generates new samples of the `Longdat` and `Longdat2`.
-We "reverse engineered" the simulation from the detailed description in the paper.
+Our main contribution is the function **simLongData()** which generates new samples of the `Longdat` and `Longdat2`. We "reverse engineered" the simulation from the detailed description in the paper.
 
-There is also a new utility plotting function `plot_multivariate_trajectories()` as well as 
-the function `generate_random_curve()`.
+There is also a new utility plotting function `plot_multivariate_trajectories()` as well as the function `generate_random_curve()`.
 
 ## Installation
 
